@@ -1,0 +1,421 @@
+/*------------Header-----------*/
+/* Banner */
+.header_area {
+    background-image: url("../images/singerProduct_Page/banner.png");
+    height: 21.6rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+/* section 1 */
+.sub_product img{
+    width: 12rem;
+}
+.product_area{
+    padding: 10rem;
+}
+.main_product .image_area .sub_image{
+    text-align: center;
+}
+
+
+.hover_card a{
+    padding: 0.5rem;
+    color: #FFFFFF;
+}
+.hover_card{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    opacity: 0;
+    display: block;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+/* hover styles */
+.hover_area {
+    position: relative;
+  }
+  
+  .card-img-top {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .card-img-top img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .hover_card {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card:hover .hover_card {
+    opacity: 1;
+  }
+  
+  .card:hover .card-img-top img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .hover_card {
+      opacity: 1;
+    }
+    .card-img-top img {
+      filter: blur(2px);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* phần bên phải */
+.product_content_area{
+    padding-left: 5rem;
+}
+.product_content_area .sub_menu{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+.product_content_area .name_product{
+    font-family: 'Prata', serif;
+    font-size: 3.6rem;
+}
+.product_content_area .price_product{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+    color: #FD5B00;
+}
+.product_content_area .sub_product{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.ingredients{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+}
+.igd{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.quantity >input ,  .quantity >button  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center
+}
+.btn{
+    background-color: #FD5B00;
+    color: #ffffff;
+    font-size: 1.4rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.btn_chose button:hover{
+    background-color: #B62A00;
+    color: #ffffff;
+}
+.btn_return button:hover{
+    background-color: #696969;
+    color: #ffffff;
+}
+.btn_return button{
+    background-color: #797979;
+}
+
+.tag{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+.product_content_area hr{
+    margin: 2rem 0 2rem 0;
+}
+/* section 2 */
+.vote span{
+    color: #FD5B00;
+}
+.comment{
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+    padding-top: 0rem;
+}
+.avatar_comter img{
+    width: 100%;
+    border-radius: 50rem;
+}
+.name_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+.date_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.content_comment{
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+.post_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.post_comment .form-group label{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.4rem !important;
+}
+
+.form-group label{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.form-group input{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    outline: 0;
+    border-width: 0 0 1px; 
+}
+textarea{
+    outline: 0;
+    border-width: 0 0 1px;
+    
+}
+textarea.form-control{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+
+.form-group .form-control:focus{
+    outline: 0;
+    border-width: 0 0 1px;
+    box-shadow: none; 
+}
+.post_comment .btn{
+    background-color: #FD5B00;
+    color: #ffffff;
+    font-size: 1.4rem;
+    height: 3rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+
+/* section 3 */
+.section_3 .title{
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+}
+.card-deck{
+    padding-bottom: 5rem;
+}
+.card{
+    border: none;
+}
+.card .name{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+}
+.card .tag{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.card .price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    color: #FD5B00;
+}
+
+.card .name {
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+    color: #000;
+}
+.card a:hover{
+    text-decoration: none;
+    color: #FD5B00;
+}
+
+@media only screen and (max-width: 576px) {
+    .header_area {
+        background-image: url("../images/singerProduct_Page/banner.png");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+
+    .product_area{
+        padding: 5rem;
+    }
+
+
+    /* phần bên phải */
+    .product_content_area{
+        padding-left: 2rem;
+    }
+    .btn{
+        background-color: #FD5B00;
+        color: #ffffff;
+        font-size: 1.4rem;
+        height: 3rem;
+        width: auto;
+        margin-left: 5rem;
+    }
+    .product_content_area hr{
+        margin: 1rem 0 1rem 0;
+    }
+    .slick-list{
+        padding: 0px!important;
+    }
+    .product_content_area p{
+        margin: 0!important;
+    }
+
+    /* section 2 */
+    .section_2{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .vote span{
+        color: #FD5B00;
+    }
+    .comment{
+        font-family: 'Prata', serif;
+        font-size: 1.8rem;
+        padding-top: 0rem;
+        padding: 0;
+    }
+    .avatar_comter img{
+        width: 250%;
+        border-radius: 50rem;
+    }
+    
+
+    .hover_card i{
+        font-size: 10rem;
+        padding: 2rem;
+    }
+
+    /* hover */
+    .hover_card a{
+        padding: 0.5rem;
+        color: #FFFFFF;
+    }
+    .hover_card{
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        opacity: 0;
+        display: block;
+    }
+    
+    .card:hover{
+        opacity: 1;
+    }
+    
+    /* hover styles */
+    .hover_area {
+        position: relative;
+      }
+      
+      .card-img-top {
+        line-height: 0;
+        overflow: hidden;
+      }
+      
+      .card-img-top img {
+        filter: blur(0px);
+        transition: filter 0.3s ease-in;
+        transform: scale(1.1);
+      }
+      
+      .hover_card {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity .5s;
+        background: rgba(90,0,10,0.4);
+        color: white;
+        
+        /* position the text in t’ middle*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .card:hover .hover_card {
+        opacity: 1;
+      }
+      
+      .card:hover .card-img-top img {
+        filter: blur(2px);
+      }
+      
+      
+      /* for touch screen devices */
+      @media (hover: none) { 
+        .hover_card {
+          opacity: 1;
+        }
+        .card-img-top img {
+          filter: blur(2px);
+        }
+      }
+}

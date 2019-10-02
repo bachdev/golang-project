@@ -1,0 +1,566 @@
+<!--section1-->
+<section class="section_1 container-fluid">
+    <div class="product_area">
+      <div class="main_product row">
+        <div class="col-6 image_area">
+          <div class="slider-for">
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp5.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp1.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp2.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp3.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp4.jpeg" alt="Xem chi tiết"></div>
+          </div>
+          <div class="slider-nav">
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp5.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp1.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp2.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp3.jpg" alt="Xem chi tiết"></div>
+            <div><img width="300" height="169" src="/resources/images/singerProduct_Page/sp4.jpeg" alt="Xem chi tiết"></div>
+          </div>
+        </div>
+        <div class="col-6 product_content_area">
+          <p class="name_product">{{.detail_Product.Name}}</p>
+          <p class="price_product">{{.detail_Product.Price}} vnd</p>
+          <p class="sub_product">{{.detail_Product.Description}}</p>
+          <hr>
+          <p class="ingredients">Thành phần chính: 
+            <p class="igd">- 500g bò Kobe</p>
+            <p class="igd">- Kiwi</p>
+            <p class="igd">- Hạt điều</p>
+          </p>
+          <div class="quantity d-flex pt-2">
+            <button class="qty-decrease" onclick="" type="button">-</button>
+            <input id="qty" type="text" name="quantity" value="1" size="4">
+            <button class="qty-increase" onclick="" type="button">+</button>
+            <div class="btn_chose"><a href="cart.html">
+                <button class="btn" type="submit">Thêm vào giỏ hàng</button></a></div>
+            <div class="btn_return"><a href="shop">
+                <button class="btn" type="submit">Tiếp tục mua hàng</button></a></div>
+          </div>
+          <hr>
+          <div class="tag">Tags: Món chính</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_2 container">
+    <div class="comment">BÌNH LUẬN</div>
+    <hr>
+    <div class="row comment_area">
+      <div class="col-1 avatar_comter"><img src="/resources/images/singerProduct_Page/sontung.png" alt=""></div>
+      <div class="col-11 form_comment">
+        <div class="vote"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></div>
+        <div class="name_comment">Sơn Tùng M-TP</div>
+        <div class="date_comment">8/8/2019</div>
+        <div class="content_comment">Món này quá ngon luôn. Tôi ăn hoài mà không thấy chán à. Mang một con bò đến đây cho tôi!!! Các bạn nhất định phải thử ăn qua món này nhé. Sky ơi!</div>
+      </div>
+    </div>
+    <hr>
+    <div class="post_comment">Để lại đánh giá của bạn
+      <hr>
+      <div class="row">
+        <div class="col-6 form-group">
+          <label for="">Tên</label>
+          <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Nhập tên gọi của bạn">
+        </div>
+        <div class="col-6 form-group">
+          <label for="">Email</label>
+          <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Nhập địa chỉ Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="">Bình luận của bạn</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Viết bình luận"></textarea>
+      </div>
+      <div class="text-left">
+        <div class="btn_chose">
+          <button class="btn" type="submit">Hoàn thành</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_3 container">
+    <div class="title">SẢN PHẨM LIÊN QUAN</div>
+    <hr>
+    <div class="card-deck row">
+      <div class="col-md-4 col-lg-3 col-sm-6">      
+        <div class="card">
+          <div class="hover_area"><img class="card-img-top" src="/resources/images/shop_Page/sp5.jpg" alt="Card image cap">
+            <div class="hover_card"><a href="cart.html"><i class="fas fa-cart-plus"></i></a><a href="cart.html"><i class="fas fa-expand"></i></a><a href="cart.html"><i class="fas fa-heart"></i></a></div>
+          </div>
+          <div class="card-body">
+            <div class="text-center"><a class="card-text name" href="singerProduct.html">Bít Tết Bò Kobe</a></div>
+            <p class="card-text tag text-center"><small class="text-muted">Món chính</small>
+              <hr>
+            </p>
+            <p class="card-text price text-center">50.000 VND</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 col-sm-6">      
+        <div class="card">
+          <div class="hover_area"><img class="card-img-top" src="/resources/images/shop_Page/sp1.jpg" alt="Card image cap">
+            <div class="hover_card"><a href="cart.html"><i class="fas fa-cart-plus"></i></a><a href="cart.html"><i class="fas fa-expand"></i></a><a href="cart.html"><i class="fas fa-heart"></i></a></div>
+          </div>
+          <div class="card-body">
+            <div class="text-center"><a class="card-text name" href="singerProduct.html">Bít Tết Bò Kobe</a></div>
+            <p class="card-text tag text-center"><small class="text-muted">Món chính</small>
+              <hr>
+            </p>
+            <p class="card-text price text-center">50.000 VND</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 col-sm-6">      
+        <div class="card">
+          <div class="hover_area"><img class="card-img-top" src="/resources/images/shop_Page/sp2.jpg" alt="Card image cap">
+            <div class="hover_card"><a href="cart.html"><i class="fas fa-cart-plus"></i></a><a href="cart.html"><i class="fas fa-expand"></i></a><a href="cart.html"><i class="fas fa-heart"></i></a></div>
+          </div>
+          <div class="card-body">
+            <div class="text-center"><a class="card-text name" href="singerProduct.html">Bít Tết Bò Kobe</a></div>
+            <p class="card-text tag text-center"><small class="text-muted">Món chính</small>
+              <hr>
+            </p>
+            <p class="card-text price text-center">50.000 VND</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 col-sm-6">      
+        <div class="card">
+          <div class="hover_area"><img class="card-img-top" src="/resources/images/shop_Page/sp3.jpg" alt="Card image cap">
+            <div class="hover_card"><a href="cart.html"><i class="fas fa-cart-plus"></i></a><a href="cart.html"><i class="fas fa-expand"></i></a><a href="cart.html"><i class="fas fa-heart"></i></a></div>
+          </div>
+          <div class="card-body">
+            <div class="text-center"><a class="card-text name" href="singerProduct.html">Bít Tết Bò Kobe</a></div>
+            <p class="card-text tag text-center"><small class="text-muted">Món chính</small>
+              <hr>
+            </p>
+            <p class="card-text price text-center">50.000 VND</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<style>
+      /*------------Header-----------*/
+/* Banner */
+.header_area {
+    background-image: url("/resources/images/singerProduct_Page/banner.png");
+    height: 21.6rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+/* section 1 */
+.sub_product img{
+    width: 12rem;
+}
+.product_area{
+    padding: 10rem;
+}
+.main_product .image_area .sub_image{
+    text-align: center;
+}
+
+
+.hover_card a{
+    padding: 0.5rem;
+    color: #FFFFFF;
+}
+.hover_card{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    opacity: 0;
+    display: block;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+/* hover styles */
+.hover_area {
+    position: relative;
+  }
+  
+  .card-img-top {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .card-img-top img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .hover_card {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card:hover .hover_card {
+    opacity: 1;
+  }
+  
+  .card:hover .card-img-top img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .hover_card {
+      opacity: 1;
+    }
+    .card-img-top img {
+      filter: blur(2px);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* phần bên phải */
+.product_content_area{
+    padding-left: 5rem;
+}
+.product_content_area .sub_menu{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+.product_content_area .name_product{
+    font-family: 'Prata', serif;
+    font-size: 3.6rem;
+}
+.product_content_area .price_product{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+    color: #FD5B00;
+}
+.product_content_area .sub_product{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.ingredients{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+}
+.igd{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.quantity >input ,  .quantity >button  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center
+}
+.btn{
+    background-color: #FD5B00;
+    color: #ffffff;
+    font-size: 1.4rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.btn_chose button:hover{
+    background-color: #B62A00;
+    color: #ffffff;
+}
+.btn_return button:hover{
+    background-color: #696969;
+    color: #ffffff;
+}
+.btn_return button{
+    background-color: #797979;
+}
+
+.tag{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+.product_content_area hr{
+    margin: 2rem 0 2rem 0;
+}
+/* section 2 */
+.vote span{
+    color: #FD5B00;
+}
+.comment{
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+    padding-top: 0rem;
+}
+.avatar_comter img{
+    width: 100%;
+    border-radius: 50rem;
+}
+.name_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+.date_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.content_comment{
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+.post_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.post_comment .form-group label{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.4rem !important;
+}
+
+.form-group label{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.form-group input{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    outline: 0;
+    border-width: 0 0 1px; 
+}
+textarea{
+    outline: 0;
+    border-width: 0 0 1px;
+    
+}
+textarea.form-control{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+
+.form-group .form-control:focus{
+    outline: 0;
+    border-width: 0 0 1px;
+    box-shadow: none; 
+}
+.post_comment .btn{
+    background-color: #FD5B00;
+    color: #ffffff;
+    font-size: 1.4rem;
+    height: 3rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+
+/* section 3 */
+.section_3 .title{
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+}
+.card-deck{
+    padding-bottom: 5rem;
+}
+.card{
+    border: none;
+}
+.card .name{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+}
+.card .tag{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.card .price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    color: #FD5B00;
+}
+
+.card .name {
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+    color: #000;
+}
+.card a:hover{
+    text-decoration: none;
+    color: #FD5B00;
+}
+
+@media only screen and (max-width: 576px) {
+    .header_area {
+        background-image: url("..//resources/images/singerProduct_Page/banner.png");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+
+    .product_area{
+        padding: 5rem;
+    }
+
+
+    /* phần bên phải */
+    .product_content_area{
+        padding-left: 2rem;
+    }
+    .btn{
+        background-color: #FD5B00;
+        color: #ffffff;
+        font-size: 1.4rem;
+        height: 3rem;
+        width: auto;
+        margin-left: 5rem;
+    }
+    .product_content_area hr{
+        margin: 1rem 0 1rem 0;
+    }
+    .slick-list{
+        padding: 0px!important;
+    }
+    .product_content_area p{
+        margin: 0!important;
+    }
+
+    /* section 2 */
+    .section_2{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .vote span{
+        color: #FD5B00;
+    }
+    .comment{
+        font-family: 'Prata', serif;
+        font-size: 1.8rem;
+        padding-top: 0rem;
+        padding: 0;
+    }
+    .avatar_comter img{
+        width: 250%;
+        border-radius: 50rem;
+    }
+    
+
+    .hover_card i{
+        font-size: 10rem;
+        padding: 2rem;
+    }
+
+    /* hover */
+    .hover_card a{
+        padding: 0.5rem;
+        color: #FFFFFF;
+    }
+    .hover_card{
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        opacity: 0;
+        display: block;
+    }
+    
+    .card:hover{
+        opacity: 1;
+    }
+    
+    /* hover styles */
+    .hover_area {
+        position: relative;
+      }
+      
+      .card-img-top {
+        line-height: 0;
+        overflow: hidden;
+      }
+      
+      .card-img-top img {
+        filter: blur(0px);
+        transition: filter 0.3s ease-in;
+        transform: scale(1.1);
+      }
+      
+      .hover_card {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity .5s;
+        background: rgba(90,0,10,0.4);
+        color: white;
+        
+        /* position the text in t’ middle*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .card:hover .hover_card {
+        opacity: 1;
+      }
+      
+      .card:hover .card-img-top img {
+        filter: blur(2px);
+      }
+      
+      
+      /* for touch screen devices */
+      @media (hover: none) { 
+        .hover_card {
+          opacity: 1;
+        }
+        .card-img-top img {
+          filter: blur(2px);
+        }
+      }
+}
+  </style>

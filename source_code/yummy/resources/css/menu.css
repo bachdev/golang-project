@@ -1,0 +1,175 @@
+/*------------Header-----------*/
+.menu-main .nav-item .page_3{
+    border-bottom: 1px solid #ffffff;
+}
+/* Banner */
+.header_area {
+    background-image: url("../images/menu_Page/banner.png");
+    height: 50rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.header_main{
+    padding-top: 5rem;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 18rem;
+    color: #ffffff;
+    line-height: 18rem;
+}
+/* section 1 */
+/* menu css dots */
+.section_1 ul.leaders {
+    max-width: 4 0em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    font-size: 2.4rem;
+}
+.section_1 ul.leaders li:before {
+    color: #000;
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+.section_1 ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #ffffff;
+    color:#000;
+}
+.section_1 ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #ffffff;
+    color:#000;
+}
+.section_1 ul.leaders li{
+    padding-bottom: 2rem; 
+}
+/* chỉnh nè */
+.section_1 .menu{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_1 .detail_menu{
+    padding: 10rem 5rem 10rem 10rem;
+}
+
+.section_1 .detail_menu .title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6.4rem;
+    margin: 0;
+    line-height: 8rem;
+}
+
+.section_1 .detail_menu .sub_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    padding-bottom: 3rem;
+}
+.section_1 .dish{
+    padding-bottom: 3rem;
+}
+.section_1 .dish_name{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+}
+.section_1 .dish_info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    /* font-style: italic; */
+}
+
+.section_1 .select_menu{
+    background-color: #F7F5EF;
+    padding: 10rem;
+}
+
+.section_1 .title_select{
+    font-family: 'Prata', serif;
+    font-size: 4.8rem;
+    line-height: 5rem;
+}
+.section_1 .sub_title_select{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+.select_menu img{
+    width: 8rem;
+    height: auto;
+}
+
+.select_menu .select{
+    padding-bottom: 3rem; 
+}
+/* section 2 */
+.section_2 {
+    background-image: url("../images/menu_Page/Sologan.png");
+    height: 50rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .menu-main .nav-item .page_3{
+        border-bottom: none;
+    }
+    .header_area {
+        background-image: url("../images/home_Page/banner1.jpg");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .header_main{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 15rem;
+        color: #ffffff;
+        line-height: 10rem;
+    }
+    .section_1 .detail_menu{
+        padding: 5rem 3rem 5rem 5rem;
+    }
+
+
+
+
+    .section_1 .select_menu{
+        background-color: #F7F5EF;
+        padding: 5rem 3rem 5rem 3rem;
+    }
+    .select_menu img{
+        width: 6rem;
+        height: auto;
+    }
+    
+    .select_menu .select{
+        padding-bottom: 0rem; 
+    }
+    .section_2 {
+        background-image: url("../images/menu_Page/Sologan.png");
+        height: 25rem; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+}

@@ -1,0 +1,215 @@
+/*------------Header-----------*/
+.menu-main .nav-item .page_4{
+    border-bottom: 1px solid #ffffff;
+}
+/* Banner */
+.header_area {
+    background-image: url("../images/blog_Page/banner.png");
+    height: 50rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+.header_main{
+    padding-top: 5rem;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 18rem;
+    color: #ffffff;
+    line-height: 18rem;
+}
+/* menu blog */
+.menu_blog nav{
+    background-color: #222023 !important;
+    padding: 0;
+}
+.menu_blog a{
+    font-family: 'Prata', serif;
+    font-size: 1.4rem;
+    color: #ffffff !important;
+}
+
+.menu_blog .nav-item{
+    padding-left: 2rem;
+    padding-top: 0.5rem; 
+}
+
+.form-inline{
+    background-color: #4C5B7C;
+    height: 4rem;
+    margin-left: 55rem;
+}
+.form-inline .form-control{
+    background-color: #4C5B7C;
+    border: none;
+    color: #ffffff;
+}
+.menu_blog .nav-link{
+    border-right: solid 1px #ffffff;
+}
+/* search */
+.navbar-nav li .search-box {
+    font-family: 'Prata', serif;
+    font-size: 1.2rem;
+    height: 100%;
+    margin-top: none;
+    background-color: #4C5B7C;
+    border: none;
+    color: white;
+    border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: none;
+  }
+
+/* section 1 */
+.section_1 .content{
+    color: #000000;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 5rem;
+}
+.section_1 .post_tag{
+    font-family: 'Prata', serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+    padding-top: 5rem;
+}
+.section_1 .post_title{
+    font-family: 'Prata', serif;
+    font-size: 3.6rem;
+}
+.section_1 .post_subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+.section_1 .post_content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.section_1 .post_detail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+
+
+.post{
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+.post_image{
+      margin-top: 3rem;
+      height: auto;
+      width: auto;
+}
+.post_content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    font-style: italic;
+}
+  
+.post_detail{
+    color: #FD5B00;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+.btn_detail{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.section_1 .btn{
+    width: 20rem;
+    height: 5rem;
+    background-color: #FD5B00;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif; 
+    color: #ffffff;
+}
+.section_1 a:hover{
+    text-decoration: none;
+  }
+
+@media only screen and (min-width: 1800px) {
+    .form-inline{
+        background-color: #4C5B7C;
+        height: 4rem;
+        margin-left: 100rem;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .form-inline{
+        background-color: #4C5B7C;
+        height: 4rem;
+        margin-left: 40rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .form-inline{
+        background-color: #4C5B7C;
+        height: 4rem;
+        margin-left: 35rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .menu-main .nav-item .page_4{
+        border-bottom: 1px solid #ffffff;
+    }
+    .header_area {
+        background-image: url("../images/blog_Page/banner.png");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .header_main{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 15rem;
+        color: #ffffff;
+        line-height: 10rem;
+    }
+    /* menu blog */
+
+    .menu_blog .nav-item{
+        padding-left: 2rem;
+        padding-top: 0.8rem; 
+    }
+
+    .form-inline{
+        background-color: #4C5B7C;
+        height: 4rem;
+        margin-left: 5rem;
+    }
+    /* search */
+    .navbar-nav li .search-box {
+        font-family: 'Prata', serif;
+        font-size: 1.2rem;
+        height: 100%;
+        margin-top: none;
+        background-color: #4C5B7C;
+        border: none;
+        color: white;
+        border-radius: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: none;
+    }
+
+
+
+
+    .post{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}

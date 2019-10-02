@@ -1,0 +1,351 @@
+/*------------Header-----------*/
+.menu-main .nav-item .page_2{
+  border-bottom: 1px solid #ffffff;
+}
+/* Banner */
+.header_area {
+    background-image: url("../images/about_Page/banner.png");
+    height: 50rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.header_main{
+  padding-top: 5rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 18rem;
+  color: #ffffff;
+  line-height: 18rem;
+}
+
+/* section_1 */
+.section_1{
+    background-color: #222023;
+}
+.content{
+  font-style: italic;
+}
+.heading{
+    padding-top: 10rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6.4rem;
+}
+.section_1 .heading{
+    color: #ffffff;
+}
+
+.section_1 .content{
+    color: #ffffff;
+}
+
+.section_1 .content_left, .content_right{
+  text-align: justify;
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+.about_content{
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.content_left{
+  padding-left: 10rem;
+  padding-right: 5rem;
+}
+.content_right{
+  padding-left: 10rem;
+  padding-right: 5rem;
+}
+
+/* grid */
+.container-fluid{
+    padding: 0;
+}
+  img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /*   grid-gap: 1em; */
+  }
+  
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .location-title {
+    font-family: 'Prata', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+    color: #ffffff;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .location-title {
+      opacity: 1;
+    }
+    .location-image img {
+      filter: blur(2px);
+    }
+  }
+
+/* section 2 */
+.section_2{
+    background-color: #F7F5EF;
+}
+
+.section_2 .content{
+    padding: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.8rem;
+    color: #FD5B00;
+}
+
+/* section 3 */
+.section_3 .content{
+  color: #000000;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-bottom: 5rem;
+}
+.section_3 .post_tag{
+    font-family: 'Prata', serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+    padding-top: 5rem;
+}
+.section_3 .post_title{
+    font-family: 'Prata', serif;
+    font-size: 3.6rem;
+}
+.section_3 .post_subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+.section_3 .post_content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.section_3 .post_detail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.section_3 a:hover{
+  text-decoration: none;
+}
+
+
+
+.post{
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+.post_image{
+    margin-top: 3rem;
+    height: auto;
+    width: auto;
+}
+.post_content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  font-style: italic;
+}
+
+.post_detail{
+  color: #FD5B00;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+
+
+.btn_detail{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section_3 .btn{
+    width: 20rem;
+    height: 5rem;
+    background-color: #FD5B00;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif; 
+}
+.section_3 .btn:hover{
+  background-color: #B62A00;
+  color: #ffffff!important;
+}
+.review .content{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.reviewers{
+  margin-left: 50rem;
+  margin-right: 50rem; 
+  padding-bottom: 10rem;
+}
+.reviewers .avatar img{
+  border-radius: 50rem;
+}
+.name_reviewers{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 2.4rem;
+  padding: 1.5rem;
+}
+.name_reviewers .role{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 1.8rem;
+  color: #FD5B00;
+}
+
+/* section 4 */
+.section_4{
+    background-color: #222023;
+}
+.review .heading, .content{
+    color: #ffffff;
+}
+.carousel-item .content{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 2.4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.reviewers .avatar img{
+    width: 10rem;
+}
+
+.reviewers .name_reviewers .name, .role{
+    color: #ffffff;
+}
+
+/* slide */
+.grid-container{
+  grid-template-columns: none;
+}
+.slick-next{
+  right: 0;
+}
+
+@media only screen and (min-width: 1900px) {
+  .reviewers{
+    margin-left: 80rem;
+    margin-right: 65rem; 
+    padding-bottom: 10rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+    .menu-main .nav-item .page_2{
+        border-bottom: none;
+    }
+  .header_area {
+      background-image: url("../images/about_Page/banner.png");
+      height: auto; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0;
+  }
+  .header_main{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 15rem;
+      color: #ffffff;
+      line-height: 10rem;
+  }
+  .heading{
+    padding-top: 5rem;
+  } 
+  .about_content{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding-left: 5rem;
+  }
+  .content_left{
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+  .content_right{
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+  .section_3 .content{
+    color: #000000;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  }
+  .post{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+
+  /* section 4 */
+  .reviewers{
+    margin-left: 22rem;
+    margin-right: 10rem; 
+    padding-bottom: 10rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* section 4 */
+  .reviewers{
+    margin-left: 18rem;
+    margin-right: 0rem; 
+    padding-bottom: 10rem;
+  }
+}

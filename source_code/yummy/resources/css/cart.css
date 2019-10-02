@@ -1,0 +1,238 @@
+/*------------Header-----------*/
+/* Banner */
+.header_area {
+    background-image: url("../images/singerProduct_Page/banner.png");
+    height: 21.6rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+/* section 1 */
+.section_1 .title{
+    font-family: 'Prata', serif;
+    font-size: 4.8rem;
+    padding-top: 5rem;
+}
+.section_1 .sub_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    padding-bottom: 5rem;
+}
+/* cart main */
+.cart-container {
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+.cart{
+    width: 100%;
+}
+.cart-container table.cart th.product-thumbnail {
+    padding-left: 3rem;
+
+}
+.cart-container table.cart .product-thumbnail {
+    width: 20%;
+    /* padding-left: 20px; */
+}
+.cart-container table.cart .product-name{
+    width: 20%;
+    
+    /* padding-left: 20px; */
+}
+.cart-container table.cart .product-name a{
+    color: #FD5B00;
+    font-size: 1.4rem;
+}
+.cart-container table.cart .product-name a:hover{
+    text-decoration: none;
+}
+.cart-container table.cart .product-quantity {
+    width: 15%;
+    /* padding-left: 20px; */
+}
+.cart-container table.cart .product-price, 
+.cart-container table.cart .product-subtotal,
+.cart-container table.cart .product-remove {
+    width: 15%;
+    /* padding-left: 20px; */
+}
+.quantity >input ,  .quantity >button  {
+    width: 3rem;
+    text-align: center
+}
+.product-remove button {
+    background: none;
+    border: 0;
+    outline: none;
+}
+.cart-container table.cart img {
+    width: 80%;
+    height: auto;
+    border: 1px solid #e7e7e7;
+}
+
+.cart-container table.cart th {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    padding: 2rem 0;
+    color: #000000;
+    background: #F7F5EF;
+    
+}
+.cart-container table.cart td {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 3rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cart-coupon {
+    margin-bottom: 4rem;
+}
+.title_coupon{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.cart-coupon, .cart-total, .payment-tabs {
+    background: #fff;
+    padding: 3rem;
+    border: 1px solid #e7e7e7;
+}
+.cart-coupon input {
+    color: #777;
+    border: 1px solid #ccc;
+    height: 4rem;
+    display: block;
+    width: 100%;
+    padding: 0 1.5rem;
+    margin: 2.5rem 0 1rem;
+    font-size: 1.4rem;
+}
+/* giảm giá */
+.discount-rate{
+    padding-left: 2rem;
+}
+
+
+.title_total{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.cart-total > table th {
+    padding: 6px;
+}
+.cart-total th, td{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.8rem !important;
+    text-align: left;
+}
+.cart-total td{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.8rem !important;
+    text-align: left;
+    padding-left: 5rem;
+}
+.cart-container th, td{
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.8rem !important;
+    text-align: center;
+}
+.cart-total > table .order-total .amount {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #FD5B00;
+}
+
+.actions{
+    text-align: left!important;
+}
+.actions a{
+    font-size: 1.4rem;
+    color: #FD5B00;
+
+}
+.actions a:hover{
+    text-decoration: none;
+}
+
+.continue{
+    padding-left: 5rem;
+}
+
+
+.cart_area{
+    padding-bottom: 10rem;
+}
+
+
+/* nhập mã giảm giá */
+
+/* btn và form */
+/* .form-group label{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.form-group input{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    outline: 0;
+    border-width: 0 0 1px; 
+}
+textarea{
+    outline: 0;
+    border-width: 0 0 1px;
+    
+}
+textarea.form-control{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+
+.form-group .form-control:focus{
+    outline: 0;
+    border-width: 0 0 1px;
+    box-shadow: none; 
+} */
+.btn{
+    background-color: #FD5B00;
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+button:hover{
+    background-color: #B62A00;
+    color: #ffffff!important;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .header_area {
+        background-image: url("../images/singerProduct_Page/banner.png");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .header_main{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 15rem;
+        color: #ffffff;
+        line-height: 10rem;
+    }
+}

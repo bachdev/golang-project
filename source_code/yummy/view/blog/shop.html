@@ -1,0 +1,357 @@
+<!--section1-->
+<section class="section_1 container-fluid">
+  <div class="set_food">
+    <div class="row set_food_area">
+      <div class="col-6 image_set"> </div>
+      <div class="col-6 set_content">
+        <div class="text_content">
+          <p class="set_price text-center">199.000 vnd</p>
+          <hr>
+          <p class="set_name text-center">COMBO TÌNH YÊU</p>
+          <p class="sub_set text-center">2 bánh mỳ, 2 set trái cây 4 mùa, 2 trà trái cây</p>
+          <div class="text-center btn_detail">
+            <button class="btn" type="button">Mua ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section_2 container-fluid">
+  <div class="top_section_2">
+    <div class="row top_area">
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tất cả các món</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Món tráng miệng</a><a class="dropdown-item" href="#">Món chính   </a></div>
+      </div>
+      <div class="search ml-auto">
+        <input class="form-control" id="myInput" type="text" placeholder="Tìm kiếm..">
+      </div>
+    </div>
+  </div>
+  <div class="card_main">
+    <div class="card-deck row">
+      {{range .Product}}
+      <div class="col-md-4 col-lg-3 col-sm-6">      
+        <div class="card">
+          <div class="hover_area"><img class="card-img-top" src={{.Thumbnail}} alt="Card image cap">
+            <div class="hover_card"><a href="cart.html"><i class="fas fa-cart-plus"></i></a><a href="cart.html"><i class="fas fa-expand"></i></a><a href="cart.html"><i class="fas fa-heart"></i></a></div>
+          </div>
+          <div class="card-body">
+            <div class="text-center"><a class="card-text name" href="/product/{{.Id}}">{{.Name}}</a></div>
+            <p class="card-text tag text-center"><small class="text-muted">Món chính</small>
+              <hr>
+            </p>
+            <p class="card-text price text-center">{{.Price}} VND</p>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+    <div class="pagination_area">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next </span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+<style>
+  /*------------Header-----------*/
+.menu-main .nav-item .page_5{
+    border-bottom: 1px solid #ffffff;
+}
+/* Banner */
+.header_area {
+    background-image: url("/resources/images/shop_Page/banner.png");
+    height: 50rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+.header_main{
+    padding-top: 5rem;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 18rem;
+    color: #ffffff;
+    line-height: 18rem;
+}
+/* section 1 */
+.section_1{
+    background-color: #F7F5EF;
+}
+.set_food{
+    padding: 10rem;
+}
+.section_1 .set_food_area{
+    border: 2px solid #979797;
+}
+.image_set{
+    padding: 0;
+    background-image: url("/resources/images/shop_Page/set1.jpg");
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.btn_detail{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.section_1 .btn{
+    width: 20rem;
+    height: 5rem;
+    background-color: #FD5B00;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif; 
+    color: #ffffff;
+}
+.section_1 .set_content{
+    background-image: url("/resources/images/shop_Page/set_backgroud.png");
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.text_content{
+    padding: 5rem 9rem 5rem 9rem;
+}
+.section_1 .set_price{
+    font-family: 'Prata', serif;
+    font-size: 4.8rem;
+    color: #FD5B00;
+}
+
+.section_1 .set_name{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+}
+
+.section_1 .sub_set{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+
+/* section 2 */
+.section_2 .card_main{
+    padding: 5rem 10rem 5rem 10rem;
+}
+.card-deck{
+    padding-bottom: 5rem;
+}
+.card{
+    border: none;
+    padding-bottom: 3rem;
+}
+.card .name {
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+    color: #000;
+}
+.card a:hover{
+    text-decoration: none;
+    color: #FD5B00;
+}
+.card .tag{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.card .price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    color: #FD5B00;
+}
+
+.top_section_2{
+    padding: 5rem 10rem 0 10rem;
+}
+.top_section_2 .dropdown button{
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+    border: solid 1px #979797;
+}
+.top_section_2 .dropdown-item{
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+}
+.search input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+
+
+
+.hover_card a{
+    padding: 0.5rem;
+    color: #FFFFFF;
+}
+.hover_card{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    opacity: 0;
+    display: block;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+/* hover styles */
+.hover_area {
+    position: relative;
+  }
+  
+  .card-img-top {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .card-img-top img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .hover_card {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card:hover .hover_card {
+    opacity: 1;
+  }
+  
+  .card:hover .card-img-top img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .hover_card {
+      opacity: 1;
+    }
+    .card-img-top img {
+      filter: blur(2px);
+    }
+  }
+
+
+/* Phân trang */
+.pagination_area{
+    padding-left: 39%;
+    color: #000;
+}
+.pagination_area .page-item{
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+.pagination_area .page-item a{
+    color: #000;
+}
+
+@media only screen and (min-width: 1800px) {
+    /* Phân trang */
+    .pagination_area{
+        padding-left: 42%;
+        color: #000;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .menu-main .nav-item .page_5{
+        border-bottom: none;
+    }
+    .header_area {
+        background-image: url("../images/shop_Page/banner.png");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .header_main{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 15rem;
+        color: #ffffff;
+        line-height: 10rem;
+    }
+
+
+
+
+    /* Phân trang */
+    .pagination_area{
+        padding-left: 42%;
+        color: #000;
+    }
+    .btn_detail{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .section_1 .btn{
+        width: 10rem;
+        height: 3rem;
+        background-color: #FD5B00;
+        font-size: 2.4rem;
+        font-family: 'Poppins', sans-serif; 
+        color: #ffffff;
+    }
+    .text_content{
+        padding: 2rem 3.5rem 2rem 3.5rem;
+    }
+
+
+
+
+    .hover_card i{
+        font-size: 10rem;
+        padding: 2rem;
+    }
+
+
+    /* Phân trang */
+    .pagination_area{
+        padding-left: 24%;
+        color: #000;
+    }
+    .pagination_area .page-item{
+        width: 5rem;
+        height: 5rem;
+        text-align: center;
+    }
+    .pagination_area .page-item a{
+        color: #000;
+    }
+}
+</style>

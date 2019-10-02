@@ -1,0 +1,119 @@
+/* grid */
+.container-fluid{
+    padding: 0;
+}
+  img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+h1{
+  padding-top: 2rem;
+}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /*   grid-gap: 1em; */
+  }
+  
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .location-title {
+      opacity: 1;
+    }
+    .location-image img {
+      filter: blur(2px);
+    }
+  }
+
+  /* slide */
+.grid-container{
+    grid-template-columns: none;
+}
+.slick-next{
+  right: 0;
+}
+/* .slick-prev{
+  left: -10rem;
+} */
+/* css */
+
+.top_footer .title{
+    font-family: 'Prata', serif;
+    font-size: 1.8rem;
+}
+
+
+
+.main_footer{
+    background-color: #222023;
+    margin: 0;
+}
+.main_footer .logo{
+    padding: 5rem 0 5rem 10rem; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.8rem;
+    color: #FD5B00;
+}
+.main_footer .right_area{
+    padding: 5rem 10rem 5rem 0rem;
+    color: #ffffff;
+}
+.main_footer .network a{
+    padding-left: 2rem;
+    color: #ffffff;
+}
+.main_footer .network a:hover{
+    color: #FD5B00;
+}
+.main_footer .make_by{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}

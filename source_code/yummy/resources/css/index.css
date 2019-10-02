@@ -1,0 +1,483 @@
+/*------------Header-----------*/
+.menu-main .nav-item .page_1{
+    border-bottom: 1px solid #ffffff;
+}
+/* Banner */
+.header_area {
+    background-image: url("../images/home_Page/banner1.jpg");
+    height: 70rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.header_main{
+    padding-top: 5rem;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 18rem;
+    color: #ffffff;
+    line-height: 18rem;
+}
+/* Section-1 Chefs */
+.chef_area{
+    padding: 10rem 3rem 10rem 10rem;
+}
+.chef_heading{
+    font-family: 'Dancing Script', cursive;
+    color: #FD5B00;
+    font-size: 6.4rem;
+}
+.chef_content{
+    padding-top: 5rem;
+}
+.name_chef .name{
+    font-family: 'Prata', serif;
+    font-size: 3.6rem;
+}
+.name_chef .role{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    color: #FD5B00;
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-style: italic;
+}
+.section_1 .content{
+    color: #696969;
+    padding-top: 5rem;
+}
+.avatar_chef img{
+    width: 80%;
+}
+.chef_image{
+    padding: 0;
+    width: 100%;
+}
+.chef_image img{
+    width: 100%;
+    height: 100%;
+    /* fix cho vừa khung nè */
+    object-fit: cover;
+}
+
+/* Chỉnh slide Bootstrap 4 */
+.carousel-indicators{
+    bottom: -10rem;
+}
+.carousel-indicators li{
+    background-color: #222023;
+}
+/* Section2 */
+.section_2{
+    background-color: #222023;
+}
+.heading{
+    padding-top: 10rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6.4rem;
+}
+.section_2 .heading{
+    color: #ffffff;
+}
+
+.section_2 .content{
+    color: #ffffff;
+}
+.menu_section_2{
+    padding-top: 5rem;
+    display: inline-block;
+}
+
+.section_2 .nav-item{
+    border: 1px solid #ffffff;
+}
+.section_2 .nav-item a{
+    color: #ffffff !important;
+    font-family: 'Prata', serif;
+}
+
+.section_2 .nav-link{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+/* Gallery */
+.list_image{
+    padding-top: 5rem;
+}
+/* grid */
+.container-fluid{
+    padding: 0;
+}
+  img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /*   grid-gap: 1em; */
+  }
+  
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .location-title {
+    color: #ffffff !important;
+    font-family: 'Prata', serif;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  .location-listing a:hover {
+    text-decoration: none;
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .location-title {
+      opacity: 1;
+    }
+    .location-image img {
+      filter: blur(2px);
+    }
+  }
+
+/* Section3 */
+.section_3 .service_content{
+    padding-top: 5rem;
+}
+.section_3 .service{
+    padding-bottom: 10rem;
+}
+.section_3 .service img{
+    width: 10rem;
+}
+.section_3 .service .title{
+    color: #FD5B00;
+    font-family: 'Prata', serif;
+    font-size: 3.6rem;
+}
+.section_3 .content{
+    color: #000;
+}
+.section_3 .service .content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    color: #696969;
+}
+
+/* Section4 */
+/* menu css dots */
+.section_4 ul.leaders {
+    max-width: 4 0em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    font-size: 2.4rem;
+}
+.section_4 ul.leaders li:before {
+    color: #ffffff;
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+.section_4 ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #222023;
+    color:#ffffff;
+}
+.section_4 ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #222023;
+    color:#ffffff;
+}
+.section_4 ul.leaders li{
+    padding-bottom: 2rem; 
+}
+
+
+
+.section_4{
+    background-color: #222023;
+}
+.section_4 .heading{
+    color: #ffffff;
+    padding-bottom: 5rem;
+}
+
+.section_4 .content{
+    color: #ffffff;
+}
+
+.section_4 p{
+    color: #ffffff;
+}
+
+.section_4 .dish .dish_name{
+    font-family: 'Prata', serif;
+    font-size: 2.4rem;
+}
+.section_4 .dish .dish_info{
+    font-size: 2.4rem;
+    color: #FEAF65;
+}
+
+.btn_detail{
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.section_4 .btn-dark{
+    background-color: #FD5B00;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.section_4 .btn_detail button:hover{
+    background-color: #B62A00;
+}
+.section_4 .btn{
+    width: 20rem;
+    height: 5rem;
+}
+
+
+@media only screen and (min-width: 1900px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /*   grid-gap: 1em; */
+    }
+    .header_main{
+        padding-top: 15rem;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 18rem;
+        color: #ffffff;
+        line-height: 18rem;
+    }
+    .chef_area{
+        padding: 20rem 10rem 10rem 20rem;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .menu-main .nav-item .page_1{
+        border-bottom: none;
+    }
+    .menu-main .nav-item .page_1:active{
+        border-bottom: none;
+    }
+    .header_area {
+        background-image: url("../images/home_Page/banner1.jpg");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .header_main{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 15rem;
+        color: #ffffff;
+        line-height: 10rem;
+    }
+/* section 1 */  
+    .chef_area{
+        padding: 5rem 1rem 5rem 8rem;
+    }
+    .chef_heading{
+        font-family: 'Dancing Script', cursive;
+        color: #FD5B00;
+        font-size: 6.4rem;
+    }
+    .chef_content{
+        padding-top: 2rem;
+    }
+    .name_chef .name{
+        font-family: 'Prata', serif;
+        font-size: 3.6rem;
+    }
+    .name_chef .role{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        color: #FD5B00;
+    }
+    .content{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        font-style: italic;
+    }
+    .section_1 .content{
+        color: #696969;
+        padding-top: 2rem;
+    }
+    .avatar_chef img{
+        width: 100%;
+    }
+    .chef_image{
+        padding: 0;
+        width: 100%;
+    }
+    .chef_image img{
+        width: 100%;
+        height: 100%;
+        /* fix cho vừa khung nè */
+        object-fit: cover;
+    }
+    
+    /* Chỉnh slide Bootstrap 4 */
+    .carousel-indicators{
+        bottom: -8rem;
+    }
+    .carousel-indicators li{
+        background-color: #222023;
+    }
+    /* Section2 */
+    .section_2{
+        background-color: #222023;
+    }
+    .heading{
+        padding-top: 5rem;
+        font-family: 'Dancing Script', cursive;
+        font-size: 6.4rem;
+    }
+    .section_2 .heading{
+        color: #ffffff;
+    }
+
+    .section_2 .content{
+        color: #ffffff;
+    }
+    .menu_section_2{
+        padding-top: 5rem;
+        display: inline-block;
+    }
+    
+    .section_2 .nav-item{
+        border: 1px solid #ffffff;
+    }
+    .section_2 .nav-item a{
+        color: #ffffff !important;
+        font-family: 'Prata', serif;
+    }
+
+    .section_2 .nav-link{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    /* Gallery */
+    .list_image{
+        padding-top: 5rem;
+    }
+    /* grid */
+    .container-fluid{
+        padding: 0;
+    }
+    img {
+        width: 100%; /* need to overwrite inline dimensions */
+        height: auto;
+    }
+    h2 {
+        margin-bottom: .5em;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /*   grid-gap: 1em; */
+    }
+    
+    
+    /* hover styles */
+    .location-listing {
+        position: relative;
+    }
+    
+    .location-image {
+        line-height: 0;
+        overflow: hidden;
+    }
+    
+    .location-image img {
+        filter: blur(0px);
+        transition: filter 0.3s ease-in;
+        transform: scale(1.1);
+    }
+    
+    .location-title {
+        color: #ffffff !important;
+        font-family: 'Prata', serif;
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity .5s;
+        background: rgba(90,0,10,0.4);
+        color: white;
+        
+        /* position the text in t’ middle*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .location-listing:hover .location-title {
+        opacity: 1;
+    }
+    
+    .location-listing:hover .location-image img {
+        filter: blur(2px);
+    }
+}

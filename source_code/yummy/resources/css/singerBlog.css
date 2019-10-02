@@ -1,0 +1,211 @@
+/*------------Header-----------*/
+/* Banner */
+.header_area {
+    background-image: url("../images/singerProduct_Page/banner.png");
+    height: 21.6rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+/* section 1 */
+.section_1 .post_tag{
+    font-family: 'Prata', serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+    padding-top: 5rem;
+}
+.section_1 .post_title{
+    font-family: 'Prata', serif;
+    font-size: 2.8rem;
+}
+.section_1 .post_subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+.section_1 .post_content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.post_image img{
+    width: 100%;
+}
+.post_image{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.post a.author{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+/* Cmt */
+.author{
+    padding-top: 5rem;
+}
+.author .author_name{
+    font-family: 'Prata', serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+.author .info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+.view_all a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+.comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 5rem;
+}
+
+.name_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #FD5B00;
+}
+.date_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+.content_comment{
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+
+.post_comment{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.post_comment .form-group label{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.4rem !important;
+}
+
+
+/* phần bên phải */
+.left_area{
+    padding-left: 3rem;
+    padding-top: 5rem;
+}
+.left_area form input{
+    height: 3rem;
+}
+.left_area .about_us{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 5rem;
+}
+.left_area .intro{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    padding-top: 5rem;
+}
+.search_form{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+.search_form form{
+    padding-top: 1rem;
+}
+.about_us ul{
+    list-style: none;
+}
+.about_us ul li a{
+    font-family: 'Prata', serif;
+    font-size: 1.4rem;
+    color: #000;
+    text-decoration: none;
+}
+.about_us ul li a:hover{
+    color: #FD5B00;   
+}
+.footer_form{
+    position: absolute;
+    z-index: 1;
+    top: -50%;
+    left: 50%;
+    width: 40%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #ffffff;
+}
+.title_form{
+    /* color: #ffffff; */
+    font-size: 4.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+.form-group label{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.form-group input{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    outline: 0;
+    border-width: 0 0 1px; 
+}
+textarea{
+    outline: 0;
+    border-width: 0 0 1px;
+    
+}
+textarea.form-control{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+
+.form-group .form-control:focus{
+    outline: 0;
+    border-width: 0 0 1px;
+    box-shadow: none; 
+}
+.btn{
+    background-color: #FD5B00;
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+button:hover{
+    background-color: #B62A00;
+    color: #ffffff!important;
+}
+.padding_form .btn:hover{
+    background-color: #B62A00;
+    color: #ffffff;
+}
+@media only screen and (max-width: 576px) {
+    .header_area {
+        background-image: url("../images/singerProduct_Page/banner.png");
+        height: auto; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .header_main{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 15rem;
+        color: #ffffff;
+        line-height: 10rem;
+    }
+}
