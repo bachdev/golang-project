@@ -1,12 +1,30 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, build with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+#IGNORE TEMPALTE BY BACHDEV
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+#Netbean IDE files
+build/*
+nbbuild/*
+dist/*
+#Eclipse IDE files
+.settings/
+.metadata
+tmp/
+bin/
+cache/
+logs/
+*.tmp
+#Maven files
+**/target/
+archive-projects/**
+#Subversion files
+.svn/*
+**/.svn/
+# Office Temp Files
+~$*
+#log folder 
+logs/*
+**/logs
+.idea/
+.idea/*
+cms_20181005[182K1005H02T0045].rar
