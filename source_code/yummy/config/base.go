@@ -2,7 +2,6 @@ package config
 
 import (
 	"os"
-
 	"yummy/helper"
 )
 
@@ -25,7 +24,6 @@ func SetupConfig() Config {
 		panic(err)
 	}
 	defer configFile.Close()
-
 	// Parse dữ liệu JSON và bind vào struct Config
 	err = helper.DecodeDataFromJsonFile(configFile, &conf)
 	if err != nil {

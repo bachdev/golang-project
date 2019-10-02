@@ -32,13 +32,15 @@ func main() {
 
 	// Đăng ký view template từ thư mục view
 	tmpl := iris.HTML("./view", ".html")
-	tmpl.Layout("layout/fontend/layout.html")
+	// template fontend
+	tmpl.Layout("layout/fontend/fontend_layout.html")
+
 	tmpl.Reload(true)
+
 	app.RegisterView(tmpl)
 
 	// Khai báo route
 	router.RegisterRoute(c, app)
-
 	// Chạy
 	app.Run(iris.Addr(":8080"), iris.WithoutServerError(iris.ErrServerClosed))
 }

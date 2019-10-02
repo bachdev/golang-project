@@ -6,7 +6,7 @@ import (
 )
 
 func RegisterRoute(c *controller.Controller, app *iris.Application) {
-	party := app.Party("/admin").Layout("layout/admin-layout.html")
+	party := app.Party("/admin").Layout("layout/admin/backend-layout.html")
 	{
 		AdminRoutes(c, party)
 	}
