@@ -1,7 +1,7 @@
 package router
 
 import (
-	"sample-project/controller"
+	"yummy/controller"
 	"github.com/kataras/iris"
 )
 

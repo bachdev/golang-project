@@ -1,10 +1,10 @@
 package main
 
 import (
-	"sample-project/config"
-	"sample-project/controller"
-	"sample-project/model"
-	"sample-project/router"
+	"yummy/config"
+	"yummy/controller"
+	"yummy/model"
+	"yummy/router"
 
 	"github.com/kataras/iris"
 )
@@ -32,7 +32,7 @@ func main() {
 
 	// Đăng ký view template từ thư mục view
 	tmpl := iris.HTML("./view", ".html")
-	tmpl.Layout("layout/layout.html")
+	tmpl.Layout("layout/fontend/layout.html")
 	tmpl.Reload(true)
 	app.RegisterView(tmpl)
 

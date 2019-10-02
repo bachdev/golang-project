@@ -1,8 +1,8 @@
 {
 	"database": {
-	  "user": "postgres",
-	  "password": "123",
-	  "database": "yummy_restaurant",
-	  "address": "localhost:5432"
+	  "user": "bachdev",
+	  "password": "bachdev123",
+	  "database": "yummy_db",
+	  "address": "go.cylab.club:5432"
 	}
 }

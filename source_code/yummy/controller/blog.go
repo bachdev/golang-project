@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"sample-project/model"
+	"yummy/model"
 	"strconv"
 
 	"github.com/kataras/iris"

@@ -3,7 +3,7 @@ package config
 import (
 	"os"
 
-	"sample-project/helper"
+	"yummy/helper"
 )
 
 type Config struct {

@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 	"fmt"
-	"sample-project/config"
+	"yummy/config"
 
 	"github.com/go-pg/pg/v9"
 	"github.com/go-pg/pg/v9/orm"

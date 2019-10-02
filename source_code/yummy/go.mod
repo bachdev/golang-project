@@ -1,4 +1,4 @@
-module sample-project
+module yummy
 
 go 1.12
 

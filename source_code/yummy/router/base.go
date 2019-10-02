@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/kataras/iris"
-	"sample-project/controller"
+	"yummy/controller"
 )
 
 func RegisterRoute(c *controller.Controller, app *iris.Application) {
