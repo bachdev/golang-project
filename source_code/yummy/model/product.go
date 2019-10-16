@@ -4,7 +4,7 @@ import "time"
 
 type Product struct {
 	// Tao schema blog
-	TableName []byte `sql:"shop.product"`
+	TableName []byte `sql:"yummy.product"`
 	// ID bài viết
 	Id int32 `sql:",pk"`
 	// Tên sản phẩm

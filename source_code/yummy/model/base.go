@@ -45,7 +45,7 @@ func SetupDatabase(db *pg.DB, config config.Config) {
 
 func MigrationDB(db *pg.DB, config config.Config) error {
 	// Tạo schema là một nhóm các bảng liên quan đến nhau. Và có thể phần quyền cho các schema /role schema
-	var schemas = []string{"shop"}
+	var schemas = []string{"yummy"}
 	for _, schema := range schemas {
 		_, err := db.Exec("CREATE SCHEMA IF NOT EXISTS " + schema + ";")
 		if err != nil {

@@ -1,7 +1,7 @@
 {
 	"database": {
-	  "user": "bachdev",
-	  "password": "bachdev123",
+	  "user": "yummy_user",
+	  "password": "yummy123",
 	  "database": "yummy_db",
 	  "address": "go.cylab.club:5432"
 	}
